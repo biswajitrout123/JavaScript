@@ -26,23 +26,48 @@
 // console.log(result);
 
 // Write a program to remove spaces from a string.
-let str = "Hello I am Practicing JavaScript";
+// let str = "Hello I am Practicing JavaScript";
 
 // 1ST METHOD:
 // let result = str.replaceAll(" ", "");
 // console.log(result);
 
 // 2ND METHOD: REMOVE SPACES FROM START AND END:
-let strr = "    Biswajit Rout Saying Hello To All    ";
-let result = strr.trim();
-console.log(result);
+// let strr = "    Biswajit Rout Saying Hello To All    ";
+// let result = strr.trim();
+// console.log(result);
 
-// 
 
 // Write a program to split a string into an array of words.
+// let str = "Hello Github"; 
+// let result = str.split(" ");
+// console.log(result);
+
 
 // Write a program to join an array of words into a string.
+let words = ["I", "am", "learning", "JavaScript"];
+let result = words.join(" ");
+
+console.log(result);
+
+
 
 // Write a program to count occurrences of a character in a string.
+// let str = "javascript";
+// let search = "c";
+// let count = 0;
+// for(let i = 0; i < str.length; i++) {
+//     if(str[i] == search){
+//         count++;
+//     }
+// }
+// console.log(count);
 
 // Write a program using template literals to print a sentence.
+let name = "Biswajit";
+let language = "JavaScript";
+let level = "beginner";
+
+let sentence = `My name is ${name}. I am learning ${language} as a ${level}.`;
+
+console.log(sentence);
