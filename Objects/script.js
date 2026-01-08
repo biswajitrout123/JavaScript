@@ -45,18 +45,28 @@
 
  
 // Write a program to delete a property from an object.
-let student = {
-    name: "krishna",
-    address: "Brundaban",
-    favouriteFood: "Makhan",
-    friend: "Gopal" 
-}
-delete student.friend;
-console.log(student);
+// let student = {
+//     name: "krishna",
+//     address: "Brundaban",
+//     favouriteFood: "Makhan",
+//     friend: "Gopal" 
+// }
+// delete student.friend;
+// console.log(student);
 
 
 
 // Write a program to iterate over object properties using for...in.
+let std = {
+    name: "Hello",
+    Use: "To Give Greet to People",
+    color: "Orange",
+    purpose: "Greet prople"
+}
+for(let key in std){
+    console.log(key);
+}
+
 
 // Write a program to count the number of properties in an object.
 
