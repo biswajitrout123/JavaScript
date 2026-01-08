@@ -45,6 +45,16 @@
 
  
 // Write a program to delete a property from an object.
+let student = {
+    name: "krishna",
+    address: "Brundaban",
+    favouriteFood: "Makhan",
+    friend: "Gopal" 
+}
+delete student.friend;
+console.log(student);
+
+
 
 // Write a program to iterate over object properties using for...in.
 
