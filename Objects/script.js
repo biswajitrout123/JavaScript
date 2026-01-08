@@ -8,20 +8,42 @@
 
 
 // Write a program to access object properties using dot notation.
-let student = {
-    name: "Biswa",
-    age: "21",
-    city: "Dhenkanal"
-}
-console.log(student.name);
-console.log(student.age);
-console.log(student.city);
+// let student = {
+//     name: "Biswa",
+//     age: "21",
+//     city: "Dhenkanal"
+// }
+// console.log(student.name);
+// console.log(student.age);
+// console.log(student.city);
 
 
 // Write a program to access object properties using bracket notation.
+// let students = {
+//     name: "rohit",
+//     age: "24",
+//     course: "ST"
+// }
+// console.log(students["name"]);
+// console.log(students["age"]);
+// console.log(students["course"]);
+
+
 
 // Write a program to add a new property to an object.
+// let student = {
+//     name: "Hari",
+//     age: "21",
+//     no: "123",
+// }
+// student.address = "jatni";
+// console.log(student);
 
+// USING BRACKETS:
+// student["address"] = "khordha";
+// console.log(student);
+
+ 
 // Write a program to delete a property from an object.
 
 // Write a program to iterate over object properties using for...in.
