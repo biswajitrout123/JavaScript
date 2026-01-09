@@ -57,24 +57,62 @@
 
 
 // Write a program to iterate over object properties using for...in.
-let std = {
-    name: "Hello",
-    Use: "To Give Greet to People",
-    color: "Orange",
-    purpose: "Greet prople"
-}
-for(let key in std){
-    console.log(key);
-}
+// let std = {
+//     name: "Hello",
+//     Use: "To Give Greet to People",
+//     color: "Orange",
+//     purpose: "Greet prople"
+// }
+// for(let key in std){
+//     console.log(key + " : ") student[key];
+// }
 
 
 // Write a program to count the number of properties in an object.
+// // Create an object
+// let student = {
+//     name: "Biswajit",
+//     age: 21,
+//     course: "JavaScript"
+// };
+
+// Iterate over object properties
+// let student = {
+//     name: "Biswajit",
+//     age: 21,
+//     course: "JavaScript"
+// };
+
+// for (let key in student) {
+//     console.log(key + " : " + student[key]);
+// }
 
 // Write a program to check if a property exists in an object.
+// let stdDetail = {
+//     name: "Biswajit Rout",
+//     age: "21",
+//     num: "980"
+// };
+// console.log("name" in stdDetail);
+// console.log("city" in stdDetail);
+
+
 
 // Write a program to create an object with a method and call it.
+let student = {
+    name: "Biswajit",
+    age: 21,
+    
+    greet: function () {
+        console.log("Hello, my name is " + this.name);
+    }
+};
+
+student.greet();
+
 
 // Write a program to use this keyword inside an object method.
+
 
 // Write a program to convert object keys into an array.
 
