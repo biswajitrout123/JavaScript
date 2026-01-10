@@ -112,37 +112,68 @@
 
 
 // Write a program to use this keyword inside an object method.
-let employee = {
-    name: "Biswajit",
-    role: "Developer",
+// let employee = {
+//     name: "Biswajit",
+//     role: "Developer",
 
-    showInfo: function(){
-        console.log("Name:", this.name);
-        console.log("Role", this.role);
+//     showInfo: function(){
+//         console.log("Name:", this.name);
+//         console.log("Role", this.role);
         
-    }
-}
+//     }
+// }
 
-employee.showInfo();
+// employee.showInfo();
 
 
 // Write a program to convert object keys into an array.
-let studnet = {
-    name: "Biswajit",
-    age: "21",
-    address: "BBSR",
-}
-let keysArray = Object.keys(studnet);
-console.log(keysArray);
-
-
+// let studnet = {
+//     name: "Biswajit",
+//     age: "21",
+//     address: "BBSR",
+// }
+// let keysArray = Object.keys(studnet);
+// console.log(keysArray);
 
 
 
 // Write a program to convert object values into an array.
+// let studentData = {
+//     name: "Biswajit",
+//     age: "21",
+//     role: "Developer",
+//     passOut: "2027",
+//     cgpa: "8"
+// }
+// let result = Object.values(studentData);
+// console.log(result);
+
 
 // Write a program to merge two objects.
+// let obj1  = {
+//     name: "Biswa",
+//     age: "21",
+//     cgpa: "8"
+// };
+// let obj2 = {
+//     name: "jit",
+//     age: "21",
+//     cgpa: "8"
+// };
+
+// let mergedobject = {...obj1, ...obj2};
+// console.log(mergedobject);
+
 
 // Write a program to clone an object (shallow copy).
+let obj = {
+    name: "Biswajit",
+    age: "21",
+
+};
+
+let copyObj = {...obj};
+console.log(copyObj);
+
 
 // Write a program to compare two objects for equality.
