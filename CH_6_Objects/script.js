@@ -166,14 +166,27 @@
 
 
 // Write a program to clone an object (shallow copy).
-let obj = {
-    name: "Biswajit",
-    age: "21",
+// let obj = {
+//     name: "Biswajit",
+//     age: "21",
 
-};
+// };
 
-let copyObj = {...obj};
-console.log(copyObj);
+// let copyObj = {...obj};
+// console.log(copyObj);
 
 
 // Write a program to compare two objects for equality.
+let obj1 = {
+    name: "Rahul",
+    age: "24",
+    address: "Munbai",
+};
+let obj2 = {
+    name: "Rahul",
+    age: "24",
+    address: "Munbai",
+};
+
+let result = JSON.stringify(obj1) === JSON.stringify(obj2);
+console.log(result);
