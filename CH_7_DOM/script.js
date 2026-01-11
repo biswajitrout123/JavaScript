@@ -34,8 +34,12 @@ document.body.appendChild(createElement);
 
 
 
-
 // Write a program to remove an element from the page.
+let removeElement = document.querySelector("div");
+removeElement.remove();
+
+
+
 
 // Write a program to add a class to an element using classList.
 
