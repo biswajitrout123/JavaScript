@@ -1,12 +1,31 @@
 // Write a program to select an element by ID and change its text.
+let heading = document.querySelector("#root");
+heading.innerText = "Hello";
+
+
 
 // Write a program to select elements by class name and change their color.
+let div = document.querySelector(".root");
+div.style.color = "green";
+
 
 // Write a program to select elements using querySelector.
+let hello = document.querySelector("#div");
+
+
+
 
 // Write a program to select all elements using querySelectorAll and loop through them.
+let selectAllElements = document.querySelectorAll();
+
+
+
 
 // Write a program to change the background color of a div using DOM.
+
+
+
+
 
 // Write a program to create a new element and add it to the page.
 
