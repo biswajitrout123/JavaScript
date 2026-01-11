@@ -22,12 +22,18 @@ let selectAllElements = document.querySelectorAll();
 
 
 // Write a program to change the background color of a div using DOM.
-
-
+let changeColor = document.querySelector("div");
+changeColor.style.backgroundColor = "pink";
 
 
 
 // Write a program to create a new element and add it to the page.
+let createElement = document.createElement("p");
+createElement.innerText = "Hey i am new element welcome me";
+document.body.appendChild(createElement);
+
+
+
 
 // Write a program to remove an element from the page.
 
