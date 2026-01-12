@@ -40,8 +40,11 @@ removeElement.remove();
 
 
 
-
 // Write a program to add a class to an element using classList.
+let box = document.getElementById("box");
+box.classList.add("highlight")
+
+
 
 // Write a program to remove a class from an element using classList.
 
