@@ -47,8 +47,18 @@ box.classList.add("highlight")
 
 
 // Write a program to remove a class from an element using classList.
+let head = document.getElementById("root");
+head.classList.remove("hello");
+
+
+
 
 // Write a program to toggle a class on button click.
+let button = document.getElementById("root");
+
+
+
+
 
 // Write a program to change an image source using DOM.
 
