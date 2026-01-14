@@ -54,13 +54,22 @@ head.classList.remove("hello");
 
 
 // Write a program to toggle a class on button click.
-let button = document.getElementById("root");
+box.classList.toggle("active");
+
 
 
 
 
 
 // Write a program to change an image source using DOM.
+function changeImage() {
+    let img = document.getElementById("myImage");
+    img.src = "image2.jpg";
+}
+
+
+
+
 
 // Write a program to get and set attributes of an element.
 
