@@ -73,8 +73,13 @@ function changeImage() {
 
 // Write a program to get and set attributes of an element.
 
+
+
 // Write a program to read input value from a text box and display it.
 
 // Write a program to create a list dynamically using an array.
 
 // Write a program to change text content using innerText and innerHTML.
+let divs = document.getElementById("div");
+divs.innerText="Hello"
+divs.innerHTML="<h1>Hello<h1>"
