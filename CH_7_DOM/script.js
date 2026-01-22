@@ -78,6 +78,33 @@ function changeImage() {
 // Write a program to read input value from a text box and display it.
 
 // Write a program to create a list dynamically using an array.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic List</title>
+</head>
+<body>
+
+<h2>Dynamic List</h2>
+<div id="listContainer"></div>
+
+<script>
+    let items = ["Apple", "Banana", "Mango", "Orange"];
+
+    let ul = document.createElement("ul");
+
+    items.forEach(item => {
+        let li = document.createElement("li");
+        li.innerText = item;
+        ul.appendChild(li);
+    });
+
+    document.getElementById("listContainer").appendChild(ul);
+</script>
+
+</body>
+</html>
+
 
 // Write a program to change text content using innerText and innerHTML.
 let divs = document.getElementById("div");
