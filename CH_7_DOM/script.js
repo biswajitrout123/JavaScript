@@ -72,41 +72,48 @@ function changeImage() {
 
 
 // Write a program to get and set attributes of an element.
+function changeImage() {
+    // get attribute
+    let img = document.getElementById("myImg");
+    let oldSrc = img.getAttribute("src");
+    console.log("Old src:", oldSrc);
+
+    // set attribute
+    img.setAttribute("src", "image2.jpg");
+    img.setAttribute("alt", "New Image");
+}
+
+
+
 
 
 
 // Write a program to read input value from a text box and display it.
 
 // Write a program to create a list dynamically using an array.
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Dynamic List</title>
-</head>
 <body>
 
-<h2>Dynamic List</h2>
-<div id="listContainer"></div>
+    <h2>Dynamic List</h2>
+    <div id="listContainer"></div>
 
-<script>
-    let items = ["Apple", "Banana", "Mango", "Orange"];
+    <script>
+        let items = ["Apple", "Banana", "Mango", "Orange"];
 
-    let ul = document.createElement("ul");
+        let ul = document.createElement("ul");
 
     items.forEach(item => {
-        let li = document.createElement("li");
+            let li = document.createElement("li");
         li.innerText = item;
         ul.appendChild(li);
     });
 
-    document.getElementById("listContainer").appendChild(ul);
-</script>
+        document.getElementById("listContainer").appendChild(ul);
+    </script>
 
 </body>
-</html>
 
 
 // Write a program to change text content using innerText and innerHTML.
 let divs = document.getElementById("div");
-divs.innerText="Hello"
-divs.innerHTML="<h1>Hello<h1>"
+divs.innerText = "Hello"
+divs.innerHTML = "<h1>Hello<h1>"
