@@ -90,6 +90,14 @@ function changeImage() {
 
 // Write a program to read input value from a text box and display it.
 
+function showValue() {
+    let value = document.getElementById("myInput").value;
+    document.getElementById("output").innerText = value;
+}
+
+
+
+
 // Write a program to create a list dynamically using an array.
 <body>
 
@@ -117,3 +125,5 @@ function changeImage() {
 let divs = document.getElementById("div");
 divs.innerText = "Hello"
 divs.innerHTML = "<h1>Hello<h1>"
+
+
