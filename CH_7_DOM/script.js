@@ -99,12 +99,6 @@ function showValue() {
 
 
 // Write a program to create a list dynamically using an array.
-<body>
-
-    <h2>Dynamic List</h2>
-    <div id="listContainer"></div>
-
-    <script>
         let items = ["Apple", "Banana", "Mango", "Orange"];
 
         let ul = document.createElement("ul");
@@ -115,10 +109,8 @@ function showValue() {
         ul.appendChild(li);
     });
 
-        document.getElementById("listContainer").appendChild(ul);
-    </script>
-
-</body>
+    document.getElementById("listContainer").appendChild(ul);
+    
 
 
 // Write a program to change text content using innerText and innerHTML.
