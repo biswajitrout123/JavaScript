@@ -11,6 +11,10 @@ console.log(removeSpace);
 
 
 // Write a program to split a string into an array of words.
+let str2 = "hello world";
+let splitingWords = str2.split(" ");
+console.log(splitingWords);
+
 
 // Write a program to join an array of words into a string.
 
