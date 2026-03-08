@@ -71,3 +71,39 @@ function checkAge(age) {
 }
 
 console.log(checkAge(10));
+
+
+// --------------------------
+function f() {
+    return;
+}
+console.log(f());   //UNDEFINED
+
+
+// ------------------------------------
+// PASS A FUNCTION INTO ANOTHER FUNCTION AND EXECUTE IT INSIDE:
+function abcd(val) {
+    val()
+}
+
+abcd(function () {
+    console.log("Hey i am inside another function");
+})
+
+// -------------------------------------------------------------
+// HOF
+// FUNCTION WHICH RETURN FUNCTION
+function abcd() {
+    return function() {
+
+    }
+}
+// EXCEPT A FUNCTION AT PARAMETER
+function abcd(val) {
+    val();
+}
+abcd(function() {
+
+})
+// -----------------------------------------------------------
+
