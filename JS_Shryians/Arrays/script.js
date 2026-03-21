@@ -74,14 +74,66 @@
 
 //------
 
-let arr = [
-    { id: 1, key: 1 },
-    { id: 2, key: 2},
-    { id: 3, key: 1},
-];
+// let arr = [
+//     { id: 1, key: 1 },
+//     { id: 2, key: 2},
+//     { id: 3, key: 1},
+// ];
 
-let va = arr.find(function (val) {
-    return val.key === 1;
+// let va = arr.find(function (val) {
+//     return val.key === 1;
+// })
+
+// console.log(va);
+
+
+// -----------------------------------------------------------
+// let arr = [10, 30, 32, 90];
+// let newArr = arr.some(function (val) {
+//     return val > 10;
+// })
+// console.log(newArr);
+
+
+// --------------------------------------------------------------
+// let arr = [10, 30, 32, 90];
+
+// let eve = arr.every(function (val) {
+//     return val > 5;
+// });
+// console.log(eve)
+
+// ------------------------------------------------------------------
+
+// let arr = [1, 2, 3, 4, 5];
+// let [a, b, , d] = arr;
+
+
+// -------------------------------------------------------------------------
+// let fruits = ["Apple", "Banana"];
+// fruits.push("Mango");
+// fruits.unshift("Pineapple");
+
+// console.log(fruits);
+
+
+// -------------------------------------------------------------------------------
+
+// let colors = ["Green", "Yellow"];
+// colors.splice(1, 0, "Red", "Blue");
+// console.log(colors);
+
+// ---------------------------------------------------------------------------------------
+
+// let names = ["Zara", "Arjun", "Mira", "Bhavya"];
+// names.sort().reverse();
+// console.log(names);
+
+// ----------------------------------------------------------------------------------------------
+
+let arr = [5, 12, 8, 20, 3];
+let newArr = arr.filter((val) => {
+    return val > 10;
 })
 
-console.log(va);
+console.log(newArr);
