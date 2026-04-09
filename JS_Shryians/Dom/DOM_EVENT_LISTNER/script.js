@@ -7,11 +7,12 @@
 // })
 
 
+
 let sel = document.querySelector('select');
+
 let device = document.querySelector('#device');
 
-sel.addEventListener('change', function(evt){  
-    device.textContent = "Device Selected"  
-    device.textContent = `${evt.target.value} is Selected`;
-    
+sel.addEventListener('change', function(evt) {
+    // device.textContent = "Dvice"
+    device.textContent = `${evt.target.value} is Selected`
 })
