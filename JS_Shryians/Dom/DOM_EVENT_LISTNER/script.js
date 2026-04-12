@@ -16,3 +16,4 @@ sel.addEventListener('change', function(evt) {
     // device.textContent = "Dvice"
     device.textContent = `${evt.target.value} is Selected`
 })
+
